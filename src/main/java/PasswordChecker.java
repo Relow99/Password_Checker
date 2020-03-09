@@ -6,7 +6,7 @@ public class PasswordChecker {
         String lowerCase = ".*[a-z].*";
         String upperCase = ".*[A-Z].*";
         String digit = ".*[0-9].*";
-        String specialChars = "(.*[! @ # & : / % {} <>].*)";
+        String specialChars = "(.*[^0-9,a-z,A-Z].*)";
         int counter = 0;
 
         if (password.isEmpty()) {
