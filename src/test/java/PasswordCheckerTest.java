@@ -6,9 +6,7 @@ class PasswordCheckerTest {
 
     @Test
     void passwordCheck() {
-        assertThrows(Exception.class, () -> {
-            PasswordChecker.passwordIsValid("");
-        });
+        assertThrows(Exception.class, () -> { PasswordChecker.passwordIsValid(""); });
 
 
     }

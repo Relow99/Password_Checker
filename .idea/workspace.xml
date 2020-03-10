@@ -4,17 +4,14 @@
     <list default="true" id="c933a9b9-4d99-4a45-839b-4fbd647eada6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/PasswordCheckerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/PasswordCheckerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-PasswordCheckerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-PasswordCheckerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PasswordChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PasswordChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PasswordChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PasswordCheckerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PasswordChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-339">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -62,17 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainPassword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PasswordCheckerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="120">
+              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,6 +88,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Relow99 &lt;tshwarelo.malepa@umuzi.org&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -99,9 +101,9 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/MainPasswordTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/character/C.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PasswordChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPassword.java" />
         <option value="$PROJECT_DIR$/src/test/java/PasswordCheckerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PasswordChecker.java" />
       </list>
     </option>
   </component>
@@ -116,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +161,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainPassword">
+  <component name="RunManager" selected="Gradle.PasswordCheckerTest">
     <configuration name="MainPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainPassword" />
       <module name="PasswordChecker.main" />
@@ -292,8 +294,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PasswordCheckerTest.passwordCheck" />
         <item itemvalue="Gradle.PasswordCheckerTest" />
+        <item itemvalue="Gradle.PasswordCheckerTest.passwordCheck" />
         <item itemvalue="Gradle.MainPasswordTest.main" />
         <item itemvalue="Gradle.PasswordCheckerTest.passwordLength" />
         <item itemvalue="Application.MainPassword" />
@@ -311,15 +313,17 @@
       <option name="presentableId" value="Default" />
       <updated>1583229878259</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1583756092926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583756092926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PasswordCheckerTest - 2020.03.05 at 10h 14m 31s.xml">
-      <configuration name="PasswordCheckerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PasswordCheckerTest_passwordLength - 2020.03.05 at 10h 52m 06s.xml">
-      <configuration name="PasswordCheckerTest.passwordLength" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="PasswordCheckerTest_passwordLength - 2020.03.05 at 12h 35m 03s.xml">
       <configuration name="PasswordCheckerTest.passwordLength" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -344,11 +348,17 @@
     <history-entry file="PasswordCheckerTest - 2020.03.06 at 14h 22m 54s.xml">
       <configuration name="PasswordCheckerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="PasswordCheckerTest_passwordCheck - 2020.03.10 at 13h 25m 21s.xml">
+      <configuration name="PasswordCheckerTest.passwordCheck" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PasswordCheckerTest - 2020.03.10 at 13h 25m 44s.xml">
+      <configuration name="PasswordCheckerTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1024" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28411406" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2892057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,6 +416,10 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.3.1/b03f607c0822a283c972e37eaeacb00dc3a3c2e7/junit-jupiter-api-5.3.1-sources.jar!/org/junit/jupiter/api/function/Executable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -429,27 +443,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PasswordCheckerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PasswordChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-339">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPassword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PasswordChecker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PasswordCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
