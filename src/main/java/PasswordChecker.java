@@ -1,57 +1,67 @@
 
 public class PasswordChecker {
 
-    public static void passwordIsValid(String password) throws Exception {
+    static String lowerCase = ".*[a-z].*";
+   static String upperCase = ".*[A-Z].*";
+    static String digit = ".*[0-9].*";
+    static String specialChars = "(.*[^0-9,a-z,A-Z].*)";
 
-        String lowerCase = ".*[a-z].*";
-        String upperCase = ".*[A-Z].*";
-        String digit = ".*[0-9].*";
-        String specialChars = "(.*[^0-9,a-z,A-Z].*)";
-        int counter = 0;
+    public static String passwordIsValid(String password){
 
+        String results = "";
         if (password.isEmpty()) {
-            throw new Exception("password should exist");
+            results = "password should exist";
+
+        }else if (password.length() < 8) {
+            results = "password should be longer than than 8 characters";
+
+        }else if (!password.matches(lowerCase)) {
+            results = "password should have at least one lowercase letter";
+
+        }else if (!password.matches(upperCase)) {
+
+            results = "password should have at least one uppercase letter";
+        }else if (!password.matches(digit)) {
+
+            results = "password should at least have one digit";
+        }else if (!password.matches(specialChars)) {
+
+            results = "password should have at least one special character";
+        }
+
+        return results;
+    }
+    public static Boolean passwordIsOk (String password){
+
+        int metConditions = 6;
+        if (password.isEmpty()) {
+            metConditions--;
         }
         if (password.length() < 8) {
-
-
-            throw new Exception("password should be longer than than 8 characters");
-
+            metConditions--;
         }
         if (!password.matches(lowerCase)) {
-            counter++;
-            System.out.println("password should have at least one lowercase letter");
-//            throw new Exception("password should have at least one lowercase letter");
+            metConditions--;
 
         }
         if (!password.matches(upperCase)) {
-            counter++;
-            System.out.println("password should have at least one uppercase letter");
-//            throw new Exception("password should have at least one uppercase letter");
+            metConditions--;
 
         }
         if (!password.matches(digit)) {
-            counter++;
-            System.out.println("password should at least have one digit");
-//            throw new Exception("password should at least have one digit");
+
+            metConditions--;
         }
         if (!password.matches(specialChars)) {
-            counter++;
-            System.out.println("password should have at least one special character");
-//            throw new Exception("password should have at least one special character");
-
+            metConditions--;
         }
-
-        if (counter == 1)
-        {
-            System.out.println("Password is OK");
+        boolean passwordIsOk = false;
+        if (metConditions >= 3) {
+            passwordIsOk = true;
         }
-        else{
-            System.out.println("password is successful");
-        }
+        return passwordIsOk;
 
     }
-
 
     }
 
